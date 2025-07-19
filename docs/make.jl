@@ -11,6 +11,6 @@ makedocs(
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
 # for more information.
 deploydocs(
-  repo = "github.com/$(ENV["GITHUB_REPOSITORY"]).git",
+  repo = "https://github.com/$(ENV["GITHUB_REPOSITORY"]).git",
   devbranch = "main"
 )
